@@ -1,24 +1,20 @@
 #!/usr/bin/env node
 
-// see lib/main.js for info
+// see lib/app.js for info
+var program = require('commander');
+
+program
+    .version('1.0.0')
+    .option('-v, --verbose', 'enable verbose reporting')
+    .option('-q, --quiet', 'hide all notifications')
+    .parse(process.argv);
 
 var config = {
-        inFile: 'data.js'
-      , outFile: 'data-min.js'
-      , githubLastPushCutoffMonths: 48 // for now—need to tweak this later
-      , sizeExceptions: [
-            'Backbone'
-          , 'Zepto'
-        ]
-      , minifyExceptions: [ 'cm.js' ]
-      , errorCountThreshold: 10
-      , verbose: process.argv.indexOf('-v') != -1
-      , quiet: process.argv.indexOf('-q') != -1
-    }
-  , ghAuth = require('./lib/ghauth')
-  , main = require('./lib/main')
-  , stats = require('./lib/stats')
+        inFile: 'data.js',
+        outFile: 'data-min.js',
+        githubLastPushCutoffMonths: 48, // for now—need to tweak this later,
+        errorCountThreshold: 10,
+        program: program
+    };
 
-ghAuth(config, function () {
-  (process.argv.indexOf('-s') != -1 ? stats : main).create(config).start()
-})
+require('./lib/start.js').start(config);

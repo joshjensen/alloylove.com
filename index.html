@@ -2,10 +2,11 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Microjs: Fantastic Micro-Frameworks and Micro-Libraries for Fun and Profit!</title>
-  <meta name="viewport" content="width=device-width; initial-scale=0.45">
-  <link href="http://fonts.googleapis.com/css?family=Maiden+Orange" rel="stylesheet">
-  <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Microjs ATOM feed">
+  <title>Alloylove.com | Easily find the Titanium Alloy Widgets, Adapters, Apps, and Tutorials you love.</title>
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="resources/css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 
   <style type="text/css">
 
@@ -24,7 +25,7 @@
     background: -o-radial-gradient(center top, circle closest-corner, #2A2E30, #111414);
     background: radial-gradient(center top, circle closest-corner, #2A2E30, #111414);
     color: #fff;
-    font: 15px/19px Helvetica, Arial;
+    font: 15px/19px "Helvetica Neue", Helvetica, Arial, sans-serif;
     min-height: 100%;
   }
   ul {
@@ -33,22 +34,22 @@
     list-style-type: none;
     padding: 0;
   }
-  h1, h2, h3, h4, p.footer strong, .clue strong {
-    font-family: 'Maiden Orange', arial, sans-serif;
+  h1, h2, h3, h4, p.footer strong, .clue h4 {
+    font-family: 'Oxygen', arial, sans-serif;
     font-weight: normal;
   }
   #header {
     position: relative;
   }
-  h1 {
-    padding-top: 50px;
-    color: #fff;
-    margin: 0;
-    font-size: 136px;
-    line-height: 130px;
+
+h1 {
+  padding-top: 50px;
+  margin: 10px 0 30px;
+    font-size: 80px;
+    line-height: 110px;
     font-weight: normal;
-    text-shadow: 0px -1px 9px rgba(0,0,0,0.4);
-  }
+    text-shadow: 0px -1px 9px rgba(0,0,0,0.4);  
+}  
   h1.overlay {
     position: absolute;
     top: 0;
@@ -60,10 +61,10 @@
   h1.overlay span {
     color: #fff !important;
   }
-  h1 span:nth-child(6n+1) { color: #A839B2; }
-  h1 span:nth-child(6n+2) { color: #FF0071; }
-  h1 span:nth-child(6n+3) { color: #ACD030; }
-  h1 span:nth-child(6n+4) { color: #58AA00; }
+  h1 span.widget { color: #A839B2; }
+  h1 span.adapter { color: #FF0071; }
+  h1 span.tutorial { color: #ACD030; }
+  h1 span.app { color: #58AA00; }
   h1 span:nth-child(6n+5) { color: #00AA78; }
   h1 span:nth-child(6n+6) { color: #0074AE; }
   h2 {
@@ -74,6 +75,16 @@
     font-weight: normal;
     text-shadow: 0px -1px 5px rgba(0,0,0,0.4);
   }
+
+  h4 {
+    color: #fff;
+    margin: 0;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: normal;
+    text-shadow: 0px -1px 5px rgba(0,0,0,0.4);
+  }  
+  
   select {
     font-size: 25px;
     background: #000;
@@ -94,7 +105,7 @@
     }
   }
   li a {
-    height: 60px;
+    height: auto;
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
     border-radius: 25px;
@@ -110,7 +121,7 @@
     padding: 20px;
     -webkit-animation: appear 0.2s;
   }
-  li:nth-child(6n+1) a {
+  li.widget a {
     background: #791982;
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
@@ -131,7 +142,7 @@
       linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
       linear-gradient(#a839b2, #6c1075);
   }
-  li:nth-child(6n+2) a {
+  li.adapter a {
     background: #C4004D;
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
@@ -152,7 +163,7 @@
       linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
       linear-gradient(#ff0071, #bb0047);
   }
-  li:nth-child(6n+3) a {
+  li.tutorial a {
     background: #81A02C;
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
@@ -173,7 +184,7 @@
       linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
       linear-gradient(#acd030, #6f9113);
   }
-  li:nth-child(6n+4) a {
+  li.app a {
     background: #4A8419;
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
@@ -260,7 +271,7 @@
     -moz-box-shadow:0 0 50px rgba(255,255,255,0.15);
     -webkit-box-shadow:0 0 100px rgba(255,255,255,0.15);
   }
-  li:nth-child(6n+1) a:hover, li:nth-child(6n+1) a:focus {
+  li.widget a:hover, li.widget a:focus {
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
       -webkit-gradient(linear, left top, left bottom, from(#A839B2), to(#6c1075));
@@ -280,7 +291,7 @@
       linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
       linear-gradient(#A839B2, #6c1075);
   }
-  li:nth-child(6n+2) a:hover, li:nth-child(6n+2) a:focus {
+  li.adapter a:hover, li.adapter a:focus {
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
       -webkit-gradient(linear, left top, left bottom, from(#ff0071), to(#bb0047));
@@ -300,7 +311,7 @@
       linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
       linear-gradient(#ff0071, #bb0047);
   }
-  li:nth-child(6n+3) a:hover, li:nth-child(6n+3) a:focus {
+  li.tutorial a:hover, li.tutorial a:focus {
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
       -webkit-gradient(linear, left top, left bottom, from(#acd030), to(#6f9113));
@@ -320,7 +331,7 @@
       linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
       linear-gradient(#acd030, #6f9113);
   }
-  li:nth-child(6n+4) a:hover, li:nth-child(6n+4) a:focus {
+  li.app a:hover, li.app a:focus {
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
       -webkit-gradient(linear, left top, left bottom, from(#58aa00), to(#337100));
@@ -382,14 +393,17 @@
   }
   li .title {
     float: left;
-    margin: 0 30px 0 0;
+    display:inline-block;
+    vertical-align: middle;
+    margin: 0 20px 0 0;
     border-right: 1px solid rgba(255,255,255,1.0);
     padding: 0 20px 0 0;
-    height: 60px;
+    width: 25%;
+    min-height: 80px;
   }
   li h3, li h4 {
     display: inline;
-    line-height: 56px;
+    line-height: 30px;
   }
   li h3 {
     font-size: 40px;
@@ -397,40 +411,31 @@
   li h4 {
     font-size: 32px;
   }
-  .title .stat {
-    margin-top: -14px;
+  div.info span {
+    display: block;
+    float: none;
+  }
+  li .description {
+    display:inline-block;
+    vertical-align: middle;
+    float: left;
+    margin: 0 20px 0 0;
+    border-right: 1px solid rgba(255,255,255,1.0);
+    padding: 0 20px 0 0;
+    width: 40%;
+    min-height: 80px;
+  }
+  li div.info {
+    display:inline-block;
+    vertical-align: middle;
+    float: left;
+    margin: 0;
+    padding: 0;
     text-align: left;
     font-size: 11px;
     font-weight: bold;
-    height: 19px;
-    opacity: 0.5;
-  }
-  .title .stat span {
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAABeCAYAAAAqoZR9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAupJREFUeNrsmM9rE0EUx3e1Vq3Gxh/k4K9EKkhBMN4FA5689SAlUNB4y0lUFFEQFPQovRU8pTd7MqJ/QIo3Rehq8WZJWlCwIIn2oIjt+n363fA6O7tZWws97INP2Z197zuT92ZnuuP6vu+sx7ZY2srAA6LcIT7byiFvGQHJgDrogCrIq2d5tnXokwmeaQF5MA3KRrAWOUufuikgQQtUrvl/TRw9hdgD+iwwpivgcYiOErBZjT5VxjguqyB/9jAt33ok/jSYo18hqEITLIGhBJUbpG9TCwQ2l0CgZSujr0pTTpCDDO/zwQjegjFQ430BPFT9PAMlcJn3Y4yZt5UxqLOnep42JlyojHoiBROmrgQ8NZlWTSSdxIugzaENG4mTElf5rE3f0Lugf45nSaAXDFvjxrzOebCX1+0/CbOYuxHrQSqQCqQC/1HgFJgAM2SCbU7c5iocBi+4gHwCd8ANMA9WwFNwSMfo4AvgC4Pfg35wHAyDnWBWCY+YAnfZQ2CXwAl1fxLcVve/wE2J7eMvGZDVyciNyz1zhVuZtq3gu5mDUbDIHt6BXfwJB8EAaPHZZ3DelgNhCDyh40fwiAS5mTKTGLWoyhY+Cs6AHeAVeAxm01U5FUgFUoH1CuTAD/B8rQIHwDawuBYBCZ7i9cteO5NJliv0Mrhm84kL3qeCr0T5RQXnjOB+jiaRQM7S8xvwmptNT4HrDL6l2ia5H1ZNf7MKR8BRXn8A+7lHBlXYzXJGViHoXVgCJXAOfGXbT/7PELu1LXNXFuuztG3nfeREyilHR23/Ysd0cLo3pgKpwGYSSGR4YyugAcbjnK7KCmRpL6rvhKZ8bEQJjCunimpvWM5TKjaBkuHU5NBt1u6uSEqgwC+0bMLUyBFpq1sF13XlkG3yH3JbDHXGhDX8ZFaKSuZIguBadyLxiK+gNLKhM8PVJsfE981hzyQctlSmaBu2bN33pDwxgTLRQhVybfPBPAJlhZzNeZb2W4ABABjYikWzwWlLAAAAAElFTkSuQmCC");
-    background-repeat: no-repeat;
-    display: inline-block;
-    padding: 1px 8px 0 24px;
-  }
-  .title .stat .w {
-    background-position: 4px -24px;
-  }
-  .title .stat .f {
-    background-position: 4px -50px;
-  }
-  .title .stat .t {
-    background-position: 4px -75px;
-  }
-  li div.size {
-    float: right;
-    margin: 0 0 0 30px;
-    padding: 0 0 0 20px;
-    line-height: 66px;
-    height: 60px;
-    font-size: 40px;
-    font-weight: normal;
-    -x-border-left: 1px solid rgba(255,255,255,1.0);
-    font-family: 'Maiden Orange', arial, serif;
-    width: 100px;
+    width: 20%;
+    min-height: 80px;
     white-space: nowrap;
   }
 /*  li h3 a, li h4 a {
@@ -472,6 +477,7 @@
     padding: 30px 0;
     width: 450px;
     margin: 40px auto;
+    margin-bottom: 0;
   }
   div.clue p {
     width: 450px;
@@ -485,10 +491,10 @@
     display: block;
     color: #0074AE;
   }
-  .clue strong span:nth-child(6n+1) { color: #A839B2; }
-  .clue strong span:nth-child(6n+2) { color: #FF0071; }
-  .clue strong span:nth-child(6n+3) { color: #ACD030; }
-  .clue strong span:nth-child(6n+4) { color: #58AA00; }
+  .clue strong span.widget { color: #A839B2; }
+  .clue strong span.adapter { color: #FF0071; }
+  .clue strong span.tutorial { color: #ACD030; }
+  .clue strong span.app { color: #58AA00; }
   .clue strong span:nth-child(6n+5) { color: #00AA78; }
   .clue strong span:nth-child(6n+6) { color: #0074AE; }
   .clue a {
@@ -551,12 +557,7 @@
   <body>
 
   <div id="header">
-    <h1>
-      <span>m</span><span>i</span><span>c</span><span>r</span><span>o</span><span>j</span><span>s</span>
-    </h1>
-    <h1 class="overlay">
-      <span>m</span><span>i</span><span>c</span><span>r</span><span>o</span><span>j</span><span>s</span>
-    </h1>
+    <h1>Get your Alloy love.</h1>
   </div>
 
   <div id="ineed" style="display: none;">
@@ -565,63 +566,34 @@
   </div>
 
   <p>
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://microjs.com/" data-count="horizontal" data-via="thomasfuchs">Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://alloylove.com/" data-count="horizontal" data-via="joshj">Tweet</a>
   <script async src="//platform.twitter.com/widgets.js" ></script>
   </p>
 
   <ul id="results"></ul>
 
   <div class="clue">
-    <p><strong><span>Fantastic</span><span> Micro</span><span>-</span><span>Frameworks</span><span> and</span><br>
-      <span>Micro</span><span>-</span><span>Libraries</span><span> for</span><span> Fun</span>
-      <span>and</span><span> Profit</span><span>!</span></strong>
-    </p>
-    <p>How much library code do you really need — 50K? 100K? 150K? More? How
-    much of that do you really use?</p>
+    <h4>Welcome to Alloylove.com</h4>
 
-    <p>Sure, we all love our favorite monolithic frameworks, and sometimes we
-    even use them fully. But how often do we reach for the ride-on John
-    Deere tractor with air conditioning and six-speaker sound system, when
-    a judiciously applied pocketknife would do the trick better, faster,
-    slicker?</p>
-
-    <p>Micro-frameworks are definitely the pocketknives of the JavaScript
-    library world: short, sweet, to the point. And at 5k and under,
-    micro-frameworks are very very portable. A micro-framework does one
-    thing and one thing only — and does it well. No cruft, no featuritis,
-    no feature creep, no excess anywhere.</p>
-
-    <p>Microjs.com helps you discover the most compact-but-powerful
-    microframeworks, and makes it easy for you to pick one that’ll work
-    for you.</p>
+    <p>Hopefully this will become a quick and easy way to find all the Alloy love you love to love... but can't find.</p>
 
     <p>Want to add your own?
-    <a href="https://github.com/madrobby/microjs.com">Fork this site on GitHub</a>,
-    add your framework to data.js and submit a pull request.</p>
-
-    <p style="margin-top:30px">
-      <strong><span>Can't</span> <span>get</span> <span>enough</span><span>?</span></strong>
-    </p>
-    <p>
-      <a href="http://140byt.es/">140byt.es</a> provides tweet-sized JavaScript goodness!
-    </p>
-
-    <p>
-      Want to master the JavaScripts?<br>Grab a seat at the <a href="http://javascriptmasterclass.com/">JavaScript Master Class</a>. 
-    </p>
+    <a href="https://github.com/joshjensen/alloylove.com">Fork this site on GitHub</a>,
+    add your info to data.js and submit a pull request.</p>
   </div>
 
   <p class="footer">
-    <strong>microjs</strong> — a micro-site for micro-frameworks
+    <strong>alloylove.com</strong> — a micro-site for alloy stuff.
     <span class="links">
-    © 2011-2012 <a href="//mir.aculo.us/">Thomas Fuchs</a> <span class="asterisk">✻</span>
-    <a href="https://github.com/madrobby/microjs.com">source on GitHub</a> <span class="asterisk">✻</span>
-    sizes minified &amp; gzipped
+    © 2012-2013 <a href="//joshjensen.com/">Josh Jensen</a> - 
+    <a href="https://github.com/joshjensen/alloylove.com">source on GitHub</a>
     </span>
-  </p>
 
-  <p class="promotejs">
-    <a href='https://developer.mozilla.org/en/JavaScript' title='JavaScript'><img src='http://static.jsconf.us/promotejsh.gif' height='150' width='180' alt='JavaScript'/></a>
+    <span class="links">
+      This site is based on the open source microjs.com site.<br/>
+    © 2011-2012 <a href="//mir.aculo.us/">Thomas Fuchs</a>
+    <a href="https://github.com/madrobby/microjs.com">source on GitHub</a>
+    </span>
   </p>
 
   <script src="data-min.js"></script>
@@ -647,13 +619,15 @@
         var html = [], i = results.length, r
         while (i--) {
           if (!(r = results[i])._rendered) {
-            r.stat =
-                '<div class="stat">'
-              + (r.ghwatchers ? t('<span class="w">{ghwatchers}</span><span class="f">{ghforks}</span>', r) : '')
-              + (r.tweets ? t('<span class="t">{tweets}</span>', r) : '')
+            r.info =
+                '<div class="info">'
+              + (r.type ? t('<span title="Type"><i class="icon-wrench"></i> {type}</span>', r) : '')
+              + (r.author ? t('<span title="Author"><i class="icon-user"></i> {author}</span>', r) : '')
+              + (r.version ? t('<span title="Version"><i class="icon-folder-close"></i> {version}</span>', r) : '')
+              + (r.platforms ? t('<span title="Platforms"><i class="icon-mobile-phone"></i> {platforms}</span>', r) : '')
               + '</div>'
             r.heading = r.name.length < 16 ? 3 : 4;
-            r._rendered = t('<li><a href="{url}"><div class="size">{size}</div><div class="title"><h{heading}>{name}</h{heading}>{stat}</div>{description}</a></li>', r)
+            r._rendered = t('<li class="{type}"><a href="{url}"><div class="title"><h{heading}>{name}</h{heading}></div><div class="description">{description}</div>{info}</a></li>', r)
           }
           html.push(results[i]._rendered)
         }
@@ -667,38 +641,11 @@
 (function () {
   // list of options to show in the pseudo-select box
   var options = [
-          { tag: 'base', label: 'a base framework.' }
-        , { tag: 'dom', label: 'a DOM utility.' }
-        , { tag: 'templating', label: 'templating.' }
-        , { tag: 'animation', label: 'CSS animation.' }
-        , { tag: 'jsanimation', label: 'JavaScript animation.' }
-        , { tag: 'css', label: 'a CSS selector engine.' }
-        , { tag: 'data', label: 'data manipulation.' }
-        , { tag: 'class', label: 'a Class system.' }
-        , { tag: 'functional', label: 'functional programming.' }
-        , { tag: 'loader', label: 'a JavaScript loader.' }
-        , { tag: 'json', label: 'JSON.' }
-        , { tag: 'ajax', label: 'AJAX.' }
-        , { tag: 'testing', label: 'to test stuff (e.g. unit testing).' }
-        , { tag: 'validation', label: 'to validate stuff.' }
-        , { tag: 'games', label: 'to write a game.' }
-        , { tag: 'canvas', label: 'to do CANVAS/2D graphics!' }
-        , { tag: 'color', label: 'to convert colors.' }
-        , { tag: 'list', label: 'to create searchable & sortable lists.' }
-        , { tag: 'spa', label: 'single page apps.' }
-        , { tag: 'storage', label: 'persistent storage.' }
-        , { tag: 'mvc', label: 'client-side MVC.' }
-        , { tag: 'feature', label: 'feature/browser detection.' }
-        , { tag: 'events', label: 'events!' }
-        , { tag: 'webkit', label: 'WebKit-specific libraries.' }
-        , { tag: 'mobile', label: 'mobile-specific libraries.' }
-        , { tag: 'responsive', label: 'libraries for responsive designs.' }
-        , { tag: 'polyfill', label: 'polyfills.' }
-        , { tag: 'analytics', label: 'analytics.' }
-        , { tag: 'hyphenation', label: 'hyphenation.' }
-        , { tag: 'async', label: 'asynchronous programming' }
-        , { tag: 'compose', label: 'to compose my own framework!' }
-        , { tag: 'micro', label: 'to code a site listing micro-frameworks!' }
+          {tag: 'widget', label: 'Widget'},
+          {tag: 'adapter', label: 'Adapter'},
+          {tag: 'app', label: 'App'},
+          {tag: 'tutorial', label: 'Tutorial'},
+          {tag: 'push', label: 'Push Notifications'}
       ]
     , selectBoxOptions = {
           itemHeight: 32 // how high is each item in the list?
@@ -807,17 +754,13 @@
         lastSearch = kw
         // special case for when text == an option, in which case search by tag
         for (i = 0; i < options.length; i++) {
-          if (kw == options[i].label) { kw = options[i].tag; break; }
+          if (kw == options[i].label) { kw = options[i].tag; break;}
         }
         location.href = location.href.replace(/(#.*$)|($)/, '#' + (kw || ''))
-        if (kw == 'micro') {
-          $results.innerHTML = '<pre>' + $('scr').innerHTML
-            .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-            .replace(/ /g, '&nbsp;').replace(/\n/g, '<br>') + '</pre>'
-          return
-        }
+        kw = kw.toLowerCase();
         kw = kw.split(/\s+/)
         libMatches = searchArray(MicroJS, kw)
+        console.log(libMatches);
         render(libMatches)
       }, 200)
     , searchArray = function (arr, kw) {
@@ -825,6 +768,7 @@
         var kwre = [], l, i
         // turn keywords into matchers
         kw.forEach(function (k) { kwre.push(new RegExp(' [^ ]*' + k.replace(/[^\w\-\.]/g, '') + '[^ ]* ')) })
+        
         l = kwre.length
         // perform an AND search for all keywords
         return arr.filter(function (el) {
@@ -835,7 +779,7 @@
       }
 
   // prepare the libs for search, make a search string that's space-separated with tags, name, description & url
-  MicroJS.forEach(function (mj) { mj._ss = ' ' + mj.tags.concat([ mj.name, mj.description, mj.url, '' ]).join(' ') })
+  MicroJS.forEach(function (mj) { mj._ss = ' ' + mj.tags.concat([ mj.name.toLowerCase(), mj.author.toLowerCase(), mj.type.toLowerCase(), mj.description.toLowerCase(), mj.url.toLowerCase(), '' ]).join(' '); });
 
   $ineedText.addEventListener('focus', focusListener, false)
   $ineedText.addEventListener('click', focusListener, false)
@@ -858,22 +802,7 @@
 
 })()
 
-  </script>
-
-<script>
-  var _gauges = _gauges || [];
-  (function() {
-    var t   = document.createElement('script');
-    t.type  = 'text/javascript';
-    t.async = true;
-    t.id    = 'gauges-tracker';
-    t.setAttribute('data-site-id', '4f99af6f613f5d5267000080');
-    t.src = '//secure.gaug.es/track.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(t, s);
-  })();
-</script>
-  
+  </script>   
 
   </body>
 </html>
