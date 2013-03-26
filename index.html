@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Alloylove.com | Easily find the Titanium Alloy Widgets, Adapters, Apps, and Tutorials you love.</title>
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="resources/css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+
+  <style type="text/css">
+
+  html {
+    min-height: 100%;
+  }
+  body {
+    -webkit-text-size-adjust: none;
+    text-align: center;
+    margin: 0;
+    background: #333;
+    background: -webkit-gradient(radial, center top, 0, center top, 600, color-stop(0, #2A2E30), color-stop(1, #111414));
+    background: -webkit-radial-gradient(center top, circle closest-corner, #2A2E30, #111414);
+    background: -moz-radial-gradient(center top, circle closest-corner, #2A2E30, #111414);
+    background: -ms-radial-gradient(center top, circle closest-corner, #2A2E30, #111414);
+    background: -o-radial-gradient(center top, circle closest-corner, #2A2E30, #111414);
+    background: radial-gradient(center top, circle closest-corner, #2A2E30, #111414);
+    color: #fff;
+    font: 15px/19px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    min-height: 100%;
+  }
+  ul {
+    width: 650px;
+    margin: 20px auto;
+    list-style-type: none;
+    padding: 0;
+  }
+  h1, h2, h3, h4, p.footer strong, .clue h4 {
+    font-family: 'Oxygen', arial, sans-serif;
+    font-weight: normal;
+  }
+  #header {
+    position: relative;
+  }
+
+h1 {
+  padding-top: 50px;
+  margin: 10px 0 30px;
+    font-size: 80px;
+    line-height: 110px;
+    font-weight: normal;
+    text-shadow: 0px -1px 9px rgba(0,0,0,0.4);  
+}  
+  h1.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    -webkit-mask-image: -webkit-gradient(linear, left top,
+      left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    text-shadow: none;
+  }
+  h1.overlay span {
+    color: #fff !important;
+  }
+  h1 span.widget { color: #A839B2; }
+  h1 span.adapter { color: #FF0071; }
+  h1 span.tutorial { color: #ACD030; }
+  h1 span.app { color: #58AA00; }
+  h1 span:nth-child(6n+5) { color: #00AA78; }
+  h1 span:nth-child(6n+6) { color: #0074AE; }
+  h2 {
+    color: #fff;
+    margin: 0;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: normal;
+    text-shadow: 0px -1px 5px rgba(0,0,0,0.4);
+  }
+
+  h4 {
+    color: #fff;
+    margin: 0;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: normal;
+    text-shadow: 0px -1px 5px rgba(0,0,0,0.4);
+  }  
+  
+  select {
+    font-size: 25px;
+    background: #000;
+    color: #fff;
+    padding: 3px;
+  }
+  option {
+    background: #000;
+  }
+  @-webkit-keyframes appear {
+    from { 
+      opacity: 0;
+      -webkit-transform: scale(0);
+    }
+    to { 
+      opacity: 1; 
+      -webkit-transform: scale(1);
+    }
+  }
+  li a {
+    height: auto;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    margin: 0 0 10px 0;
+    -webkit-font-smoothing: antialiased;
+    text-rendering:optimizeLegibility;
+    overflow: hidden;
+    padding-bottom: 10px;
+    text-overflow: ellipsis;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    -webkit-animation: appear 0.2s;
+  }
+  li.widget a {
+    background: #791982;
+    background:
+      -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
+      -webkit-gradient(linear, left top, left bottom, from(#A839B2), to(#6c1075));
+    background:
+      -webkit-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -webkit-linear-gradient(#a839b2, #6c1075);
+    background:
+      -moz-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -moz-linear-gradient(#a839b2, #6c1075);
+    background:
+      -ms-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -ms-linear-gradient(#a839b2, #6c1075);
+    background:
+      -o-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -o-linear-gradient(#a839b2, #6c1075);
+    background:
+      linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      linear-gradient(#a839b2, #6c1075);
+  }
+  li.adapter a {
+    background: #C4004D;
+    background:
+      -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
+      -webkit-gradient(linear, left top, left bottom, from(#ff0071), to(#bb0047));
+    background:
+      -webkit-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -webkit-linear-gradient(#ff0071, #bb0047);
+    background:
+      -moz-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -moz-linear-gradient(#ff0071, #bb0047);
+    background:
+      -ms-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -ms-linear-gradient(#ff0071, #bb0047);
+    background:
+      -o-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -o-linear-gradient(#ff0071, #bb0047);
+    background:
+      linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      linear-gradient(#ff0071, #bb0047);
+  }
+  li.tutorial a {
+    background: #81A02C;
+    background:
+      -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
+      -webkit-gradient(linear, left top, left bottom, from(#acd030), to(#6f9113));
+    background:
+      -webkit-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -webkit-linear-gradient(#acd030, #6f9113);
+    background:
+      -moz-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -moz-linear-gradient(#acd030, #6f9113);
+    background:
+      -ms-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -ms-linear-gradient(#acd030, #6f9113);
+    background:
+      -o-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -o-linear-gradient(#acd030, #6f9113);
+    background:
+      linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      linear-gradient(#acd030, #6f9113);
+  }
+  li.app a {
+    background: #4A8419;
+    background:
+      -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
+      -webkit-gradient(linear, left top, left bottom, from(#58aa00), to(#337100));
+    background:
+      -webkit-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -webkit-linear-gradient(#58aa00, #337100);
+    background:
+      -moz-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -moz-linear-gradient(#58aa00, #337100);
+    background:
+      -ms-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -ms-linear-gradient(#58aa00, #337100);
+    background:
+      -o-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -o-linear-gradient(#58aa00, #337100);
+    background:
+      linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      linear-gradient(#58aa00, #337100);
+  }
+  li:nth-child(6n+5) a {
+    background: #18946D;
+    background:
+      -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
+      -webkit-gradient(linear, left top, left bottom, from(#00aa78), to(#05603e));
+    background:
+      -webkit-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -webkit-linear-gradient(#00aa78, #05603e);
+    background:
+      -moz-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -moz-linear-gradient(#00aa78, #05603e);
+    background:
+      -ms-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -ms-linear-gradient(#00aa78, #05603e);
+    background:
+      -o-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -o-linear-gradient(#00aa78, #05603e);
+    background:
+      linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      linear-gradient(#00aa78, #05603e);
+  }
+  li:nth-child(6n+6) a {
+    background: #1E577F;
+    background:
+      -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
+      -webkit-gradient(linear, left top, left bottom, from(#0074ae), to(#073c66));
+    background:
+      -webkit-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -webkit-linear-gradient(#0074ae, #073c66);
+    background:
+      -moz-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -moz-linear-gradient(#0074ae, #073c66);
+    background:
+      -ms-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -ms-linear-gradient(#0074ae, #073c66);
+    background:
+      -o-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      -o-linear-gradient(#0074ae, #073c66);
+    background:
+      linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
+      linear-gradient(#0074ae, #073c66);
+  }
+
+  li a:hover, li a:focus {
+    background:
+      -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
+      -webkit-gradient(linear, left top, left bottom, from(#3a3e40), to(#2a2e30));
+    background:
+      -webkit-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -webkit-linear-gradient(#3a3e40, #2a2e30);
+    background:
+      -moz-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -moz-linear-gradient(#3a3e40, #2a2e30);
+    background:
+      -ms-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -ms-linear-gradient(#3a3e40, #2a2e30);
+    background:
+      -o-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -o-linear-gradient(#3a3e40, #2a2e30);
+    background:
+      linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      linear-gradient(#3a3e40, #2a2e30);
+    text-shadow:0 0 15px rgba(255,255,255,0.4);
+    -moz-box-shadow:0 0 50px rgba(255,255,255,0.15);
+    -webkit-box-shadow:0 0 100px rgba(255,255,255,0.15);
+  }
+  li.widget a:hover, li.widget a:focus {
+    background:
+      -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
+      -webkit-gradient(linear, left top, left bottom, from(#A839B2), to(#6c1075));
+    background:
+      -webkit-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -webkit-linear-gradient(#A839B2, #6c1075);
+    background:
+      -moz-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -moz-linear-gradient(#A839B2, #6c1075);
+    background:
+      -ms-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -ms-linear-gradient(#A839B2, #6c1075);
+    background:
+      -o-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -o-linear-gradient(#A839B2, #6c1075);
+    background:
+      linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      linear-gradient(#A839B2, #6c1075);
+  }
+  li.adapter a:hover, li.adapter a:focus {
+    background:
+      -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
+      -webkit-gradient(linear, left top, left bottom, from(#ff0071), to(#bb0047));
+    background:
+      -webkit-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -webkit-linear-gradient(#ff0071, #bb0047);
+    background:
+      -moz-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -moz-linear-gradient(#ff0071, #bb0047);
+    background:
+      -ms-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -ms-linear-gradient(#ff0071, #bb0047);
+    background:
+      -o-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -o-linear-gradient(#ff0071, #bb0047);
+    background:
+      linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      linear-gradient(#ff0071, #bb0047);
+  }
+  li.tutorial a:hover, li.tutorial a:focus {
+    background:
+      -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
+      -webkit-gradient(linear, left top, left bottom, from(#acd030), to(#6f9113));
+    background:
+      -webkit-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -webkit-linear-gradient(#acd030, #6f9113);
+    background:
+      -moz-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -moz-linear-gradient(#acd030, #6f9113);
+    background:
+      -ms-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -ms-linear-gradient(#acd030, #6f9113);
+    background:
+      -o-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -o-linear-gradient(#acd030, #6f9113);
+    background:
+      linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      linear-gradient(#acd030, #6f9113);
+  }
+  li.app a:hover, li.app a:focus {
+    background:
+      -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
+      -webkit-gradient(linear, left top, left bottom, from(#58aa00), to(#337100));
+    background:
+      -webkit-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -webkit-linear-gradient(#58aa00, #337100);
+    background:
+      -moz-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -moz-linear-gradient(#58aa00, #337100);
+    background:
+      -ms-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -ms-linear-gradient(#58aa00, #337100);
+    background:
+      -o-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -o-linear-gradient(#58aa00, #337100);
+    background:
+      linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      linear-gradient(#58aa00, #337100);
+  }
+  li:nth-child(6n+5) a:hover, li:hover:nth-child(6n+5) a:focus {
+    background:
+      -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
+      -webkit-gradient(linear, left top, left bottom, from(#00aa78), to(#05603e));
+    background:
+      -webkit-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -webkit-linear-gradient(#00aa78, #05603e);
+    background:
+      -moz-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -moz-linear-gradient(#00aa78, #05603e);
+    background:
+      -ms-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -ms-linear-gradient(#00aa78, #05603e);
+    background:
+      -o-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -o-linear-gradient(#00aa78, #05603e);
+    background:
+      linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      linear-gradient(#00aa78, #05603e);
+  }
+  li:nth-child(6n+6) a:hover, li:nth-child(6n+6) a:focus {
+    background:
+      -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
+      -webkit-gradient(linear, left top, left bottom, from(#0074ae), to(#073c66));
+    background:
+      -webkit-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -webkit-linear-gradient(#0074ae, #073c66);
+    background:
+      -moz-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -moz-linear-gradient(#0074ae, #073c66);
+    background:
+      -ms-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -ms-linear-gradient(#0074ae, #073c66);
+    background:
+      -o-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      -o-linear-gradient(#0074ae, #073c66);
+    background:
+      linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
+      linear-gradient(#0074ae, #073c66);
+  }
+  li .title {
+    float: left;
+    display:inline-block;
+    vertical-align: middle;
+    margin: 0 20px 0 0;
+    border-right: 1px solid rgba(255,255,255,1.0);
+    padding: 0 20px 0 0;
+    width: 25%;
+    min-height: 80px;
+  }
+  li h3, li h4 {
+    display: inline;
+    line-height: 30px;
+  }
+  li h3 {
+    font-size: 40px;
+  }
+  li h4 {
+    font-size: 32px;
+  }
+  div.info span {
+    display: block;
+    float: none;
+  }
+  li .description {
+    display:inline-block;
+    vertical-align: middle;
+    float: left;
+    margin: 0 20px 0 0;
+    border-right: 1px solid rgba(255,255,255,1.0);
+    padding: 0 20px 0 0;
+    width: 40%;
+    min-height: 80px;
+  }
+  li div.info {
+    display:inline-block;
+    vertical-align: middle;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 11px;
+    font-weight: bold;
+    width: 20%;
+    min-height: 80px;
+    white-space: nowrap;
+  }
+/*  li h3 a, li h4 a {
+    display: inline-block;
+    -webkit-transition: all 0.3s;
+    -webkit-transform: scale(0.9) translate3d(0,0,0);
+  }
+  li h3 a:hover, li h4 a:hover {
+    -webkit-transition: all 0.3s;
+    -webkit-transform: scale(1.0) translate3d(0,0,0);
+  }*/
+  p.footer {
+    width: 450px;
+    padding: 20px 0 40px 0;
+    border-top: 1px solid #58AA00;
+    color: #fff;
+    margin: 0 auto;
+    line-height: 20px;
+  }
+  p.footer strong {
+    font-size: 21px;
+  }
+  p.footer a {
+    color: #fff;
+  }
+  p.footer span.asterisk {
+    color: #00AA78;
+    padding: 0 10px;
+  }
+  p.footer span.links {
+    display: block;
+    color: #fff;
+    margin-top: 8px;
+    font-size: 12px;
+  }
+  .clue {
+    margin-top: 40px;
+    border-top: 1px solid #A839B2;
+    padding: 30px 0;
+    width: 450px;
+    margin: 40px auto;
+    margin-bottom: 0;
+  }
+  div.clue p {
+    width: 450px;
+    color: rgb(255,255,255);
+    margin: 10px auto 0 auto;
+    line-height: 20px;
+  }
+  div.clue p strong {
+    font-size: 30px;
+    line-height: 32px;
+    display: block;
+    color: #0074AE;
+  }
+  .clue strong span.widget { color: #A839B2; }
+  .clue strong span.adapter { color: #FF0071; }
+  .clue strong span.tutorial { color: #ACD030; }
+  .clue strong span.app { color: #58AA00; }
+  .clue strong span:nth-child(6n+5) { color: #00AA78; }
+  .clue strong span:nth-child(6n+6) { color: #0074AE; }
+  .clue a {
+    color: #FF0071;
+  }
+  p {
+    -webkit-font-smoothing: antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  p.promotejs {
+    margin: 0 auto 40px auto;
+  }
+  pre {
+    font-size: 8pt;
+    line-height: 100%;
+    text-align: left;
+  }
+  #ineed {
+    margin: 10px auto;
+    font-size: 25px;
+    width: 650px;
+    position: relative;
+  }
+  #ineed > span {
+    display: inline-block;
+    width: 125px;
+  }
+  #ineed_text {
+    border: solid 1px #555;
+    margin: 0 15px 0 0;
+    font-size: 25px;
+    background: black;
+    color: white;
+    padding: 3px;
+    width: 502px;
+  }
+  #ineed_select {
+    position: absolute;
+    right: 15px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 508px;
+    text-align: left;
+    background: #000;
+    border: solid 1px #555;
+    cursor: pointer;
+    z-index: 1;
+  }
+  #ineed_select > div {
+    height: 28px;
+    padding: 4px 6px 0px 6px;
+    line-height: 90%;
+  }
+  #ineed_select > div:hover, #ineed_select > div.selected {
+    background-color: #555;
+  }
+
+  </style>
+  </head>
+  <body>
+
+  <div id="header">
+    <h1>Get your Alloy love.</h1>
+  </div>
+
+  <div id="ineed" style="display: none;">
+    <span>I need ...</span><input type="text" id="ineed_text">
+    <div id="ineed_select" style="display: none;"></div>
+  </div>
+
+  <p>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://alloylove.com/" data-count="horizontal" data-via="joshj">Tweet</a>
+  <script async src="//platform.twitter.com/widgets.js" ></script>
+  </p>
+
+  <ul id="results"></ul>
+
+  <div class="clue">
+    <h4>Welcome to Alloylove.com</h4>
+
+    <p>Hopefully this will become a quick and easy way to find all the Alloy love you love to love... but can't find.</p>
+
+    <p>Want to add your own?
+    <a href="https://github.com/joshjensen/alloylove.com">Fork this site on GitHub</a>,
+    add your info to data.js and submit a pull request.</p>
+  </div>
+
+  <p class="footer">
+    <strong>alloylove.com</strong> — a micro-site for alloy stuff.
+    <span class="links">
+    © 2012-2013 <a href="//joshjensen.com/">Josh Jensen</a> - 
+    <a href="https://github.com/joshjensen/alloylove.com">source on GitHub</a>
+    </span>
+
+    <span class="links">
+      This site is based on the open source microjs.com site.<br/>
+    © 2011-2012 <a href="//mir.aculo.us/">Thomas Fuchs</a>
+    <a href="https://github.com/madrobby/microjs.com">source on GitHub</a>
+    </span>
+  </p>
+
+  <script src="data-min.js"></script>
+  <script type="text/javascript" id="scr">
+/* Micro-Framework-Listing-Site-Microlib
+ * Now with extra-chocolatey easter eggs!
+ * Copyright (c) 2011-2012 @madrobby, @rvagg & other contributors
+ * Licenced under the MIT open source licence - http://www.opensource.org/licenses/mit-license.html
+ */
+
+(function () {
+  var $ = function (s) { return document.getElementById(s) }
+    , $ineed = $('ineed')
+    , $ineedText = $('ineed_text')
+    , $ineedSelect = $('ineed_select')
+    , $results = $('results')
+      // micro-templating
+    , t = function (s, d){
+        for (var p in d) s = s.replace(new RegExp('{' + p + '}', 'g'), d[p])
+        return s
+      }
+    , render = function (results){
+        var html = [], i = results.length, r
+        while (i--) {
+          if (!(r = results[i])._rendered) {
+            r.info =
+                '<div class="info">'
+              + (r.type ? t('<span title="Type"><i class="icon-wrench"></i> {type}</span>', r) : '')
+              + (r.author ? t('<span title="Author"><i class="icon-user"></i> {author}</span>', r) : '')
+              + (r.version ? t('<span title="Version"><i class="icon-folder-close"></i> {version}</span>', r) : '')
+              + (r.platforms ? t('<span title="Platforms"><i class="icon-mobile-phone"></i> {platforms}</span>', r) : '')
+              + '</div>'
+            r.heading = r.name.length < 16 ? 3 : 4;
+            r._rendered = t('<li class="{type}"><a href="{url}"><div class="title"><h{heading}>{name}</h{heading}></div><div class="description">{description}</div>{info}</a></li>', r)
+          }
+          html.push(results[i]._rendered)
+        }
+        $results.innerHTML = html.join('')
+      }
+
+  MicroJS.sort(function () { return 0.5 - Math.random() })
+
+// mini feature-detect for some of the stuff we use with fallback for garbage browsers
+;Array.prototype.forEach && Array.prototype.filter && document.documentElement.addEventListener && document.querySelector ?
+(function () {
+  // list of options to show in the pseudo-select box
+  var options = [
+          {tag: 'widget', label: 'Widget'},
+          {tag: 'adapter', label: 'Adapter'},
+          {tag: 'app', label: 'App'},
+          {tag: 'tutorial', label: 'Tutorial'},
+          {tag: 'push', label: 'Push Notifications'}
+      ]
+    , selectBoxOptions = {
+          itemHeight: 32 // how high is each item in the list?
+        , maxItems: options.length // max items to show
+        , minItems: 5 // min items to show
+        , boxBorder: 2 // how many px is the border of the select box
+      }
+    , lastSearch
+    , selectedItem = function () { return $ineedSelect.querySelector('div.selected') }
+      // show drop-down box
+    , showopt = function (opt) {
+        if ($ineedSelect.style.display === '') return
+        var s = '', height
+        ;(opt || options).forEach(function (option) { s += '<div>' + option.label + '</div>' })
+        $ineedSelect.innerHTML = s
+        $ineedSelect.style.display = ''
+        // how much space do we have to spare for the select box?
+        height = roundToItemHeight(
+            window.innerHeight - offsetTop($ineedSelect) + document.body.scrollTop + selectBoxOptions.boxBorder)
+        // decide how big we should make the box
+        height = Math.max(
+            selectBoxOptions.itemHeight * selectBoxOptions.minItems
+          , Math.min(selectBoxOptions.itemHeight * selectBoxOptions.maxItems, height))
+        $ineedSelect.style.height = height + 'px'
+      }
+      // given x, round it to the nearest number of select box items we can fit in, - 1
+    , roundToItemHeight = function (x) {
+        return (Math.round(x / selectBoxOptions.itemHeight) - 1) * selectBoxOptions.itemHeight
+      }
+    , offsetTop = function (e) {
+        var ot = 0
+        while (e && e !== document) {
+          ot += e.offsetTop
+          e = e.offsetParent
+        }
+        return ot
+      }
+      // hide drop-down box
+    , hideopt = function () {
+        var si = selectedItem()
+        if (si) si.className = ''
+        $ineedSelect.style.display = 'none'
+      }
+      // here's a microlib right here, this little beauty is uber-helpful - @rvagg
+      // delay invocation of arg1 by arg2 milliseconds, but push back that delay
+      // each time we get another call before invocation, great for key-events
+    , cumulativeDelayed = function() {
+        var tid, args = Array.prototype.slice.call(arguments)
+          , fn = args.shift(), timeout = args.shift()
+        return function() {
+          var _args = args.concat(Array.prototype.slice.call(arguments))
+          if (tid) clearTimeout(tid)
+          tid = setTimeout(function() { fn.apply(null, _args) }, timeout)
+        }
+      }
+    , blurListener = cumulativeDelayed(function (e) { hideopt()}, 200)
+    , focusListener = function (e) { showopt(); search() }
+    , selectListener = function (e, el) { // click events
+        if (e) el = e.target
+        $ineedText.value = el.textContent || el.innerText
+        e && keydownListener({ keyCode: 13 })
+      }
+    , keydownDelayed = cumulativeDelayed(function () { search() }, 250)
+    , showsearch = function () { showopt(); search() }
+      // make our pseudo-select box work as if it was a real select box
+    , keydownListener = function (e) {
+        switch (e.keyCode) {
+          case 38: //up
+            showsearch(); selectUp()
+            break;
+          case 40: //down
+            showsearch(); selectDown()
+            break;
+          case 13: //return
+            hideopt(); search()
+            break;
+          default:
+            hideopt(); keydownDelayed()
+        }
+      }
+      // arrow-up
+    , selectUp = function (e) {
+        var si = selectedItem()
+        if (si && si != $ineedSelect.firstChild) {
+          si.className = ''
+          ;(si = si.previousSibling).className = 'selected'
+          if (si.offsetTop < $ineedSelect.scrollTop) $ineedSelect.scrollTop -= si.offsetHeight
+          selectListener(null, si)
+        }
+      }
+      // arrow-down
+    , selectDown = function (e) {
+        var si = selectedItem()
+        if (!si) $ineedSelect.firstChild.className = 'selected'
+        else if (si != $ineedSelect.lastChild) {
+          si.className = ''
+          ;(si = si.nextSibling).className = 'selected'
+          if (si.offsetTop + si.offsetHeight > $ineedSelect.offsetHeight + $ineedSelect.scrollTop)
+            $ineedSelect.scrollTop += si.offsetHeight
+          selectListener(null, si)
+        }
+      }
+    , search = cumulativeDelayed(function () {
+        var i, libMatches, kw = $ineedText.value
+        if (kw == lastSearch) return
+        lastSearch = kw
+        // special case for when text == an option, in which case search by tag
+        for (i = 0; i < options.length; i++) {
+          if (kw == options[i].label) { kw = options[i].tag; break;}
+        }
+        location.href = location.href.replace(/(#.*$)|($)/, '#' + (kw || ''))
+        kw = kw.toLowerCase();
+        kw = kw.split(/\s+/)
+        libMatches = searchArray(MicroJS, kw)
+        console.log(libMatches);
+        render(libMatches)
+      }, 200)
+    , searchArray = function (arr, kw) {
+        if (!kw || !kw.length) return arr
+        var kwre = [], l, i
+        // turn keywords into matchers
+        kw.forEach(function (k) { kwre.push(new RegExp(' [^ ]*' + k.replace(/[^\w\-\.]/g, '') + '[^ ]* ')) })
+        
+        l = kwre.length
+        // perform an AND search for all keywords
+        return arr.filter(function (el) {
+          for (i = 0; i < l; i++)
+            if (!kwre[i].test(el._ss)) return false
+          return true
+        })
+      }
+
+  // prepare the libs for search, make a search string that's space-separated with tags, name, description & url
+  MicroJS.forEach(function (mj) { mj._ss = ' ' + mj.tags.concat([ mj.name.toLowerCase(), mj.author.toLowerCase(), mj.type.toLowerCase(), mj.description.toLowerCase(), mj.url.toLowerCase(), '' ]).join(' '); });
+
+  $ineedText.addEventListener('focus', focusListener, false)
+  $ineedText.addEventListener('click', focusListener, false)
+  $ineedText.addEventListener('blur', blurListener, false)
+  $ineedText.addEventListener('keydown', keydownListener, false)
+  $ineedSelect.addEventListener('click', selectListener, false)
+
+  ;(function(kw) {
+    if (!kw) return
+    for (var i = 0; i < options.length; i++) {
+      if (kw == options[i].tag) { kw = options[i].label; break; }
+    }
+    $ineedText.value = kw
+  }(location.href.split('#')[1]))
+
+  search()
+  $ineed.style.display = ''
+
+})() : render(MicroJS) // fallback for old browsers, you don't deserve the sweetness!
+
+})()
+
+  </script>   
+
+  </body>
+</html>
