@@ -1,6 +1,78 @@
 [
 	{
 		"type": "widget",
+		"description": "An ACS login widget for Titanium Alloy",
+		"github": "bettytran/acsloginwidget",
+		"url": "https://github.com/bettytran/acsloginwidget/tree/master/com.appcelerator.acslogin",
+		"source": "https://raw.github.com/bettytran/acsloginwidget/master/com.appcelerator.acslogin/widget.json"
+	},
+	{
+		"type": "widget",
+		"description": "The message center widget is a fire and forget window that tracks any type of messages, whether that is from push notifications, messages from friends, system messages, etc.",
+		"url": "https://github.com/AppceleratorSolutions/AlloyWidgets/tree/master/MessageCenter",
+		"source": "https://raw.github.com/AppceleratorSolutions/AlloyWidgets/master/MessageCenter/widget.json"
+	},
+	{
+		"type": "widget",
+		"name": "Star Rating",
+		"url": "https://github.com/AppceleratorSolutions/AlloyWidgets/tree/master/starrating",
+		"source": "https://raw.github.com/AppceleratorSolutions/AlloyWidgets/master/starrating/widget.json"
+	},
+	{
+		"type": "widget",
+		"github": "danielsefton/AlloySliderMenu",		
+		"url": "https://github.com/danielsefton/AlloySliderMenu/tree/master/app/widgets/ds.slideMenu",
+		"source": "https://raw.github.com/danielsefton/AlloySliderMenu/master/app/widgets/ds.slideMenu/widget.json"
+	},
+	{
+		"type": "widget",
+		"github": "eqhes/alloy-rss-widget",
+		"url": "https://github.com/eqhes/alloy-rss-widget/tree/master/com.appcelerator.rss",
+		"source": "https://raw.github.com/eqhes/alloy-rss-widget/master/com.appcelerator.rss/widget.json"
+	},
+	{
+		"type": "widget",
+		"github": "aaronksaunders/ci-alloy-twitter-widget",
+		"url": "https://github.com/aaronksaunders/ci-alloy-twitter-widget/tree/master/app/widgets/ci.twitter",
+		"source": "https://raw.github.com/aaronksaunders/ci-alloy-twitter-widget/master/app/widgets/ci.twitter/widget.json"
+	},
+	{
+		"type": "widget",
+		"github": "orthlieb/widget_combobox",
+		"url": "https://github.com/orthlieb/widget_combobox/tree/master/app/widgets/com.orthlieb.combobox",
+		"source": "https://raw.github.com/orthlieb/widget_combobox/master/app/widgets/com.orthlieb.combobox/widget.json"
+	},
+	{
+		"type": "widget",
+		"github": "ricardoalcocer/alloy-widget-drawermenu",
+		"url": "https://github.com/ricardoalcocer/alloy-widget-drawermenu/tree/master/app/widgets/com.drawermenu.widget",
+		"source": "https://raw.github.com/ricardoalcocer/alloy-widget-drawermenu/master/app/widgets/com.drawermenu.widget/widget.json"
+	},
+	{
+		"type": "widget",
+		"github": "hoyo/net.hoyohoyo.iconiclabel",
+		"url": "https://github.com/hoyo/net.hoyohoyo.iconiclabel/tree/master/app/widgets/net.hoyohoyo.iconiclabel",
+		"source": "https://raw.github.com/hoyo/net.hoyohoyo.iconiclabel/master/app/widgets/net.hoyohoyo.iconiclabel/widget.json"
+	},	
+	{
+		"type": "widget",
+		"github": "hoyo/net.hoyohoyo.zuruiline",
+		"url": "https://github.com/hoyo/net.hoyohoyo.zuruiline/tree/master/app/widgets/net.hoyohoyo.zuruiline",
+		"source": "https://raw.github.com/hoyo/net.hoyohoyo.zuruiline/master/app/widgets/net.hoyohoyo.zuruiline/widget.json"
+	},
+	{
+		"type": "widget",
+		"github": "orthlieb/widget_scrollablewebview",
+		"url": "https://github.com/orthlieb/widget_scrollablewebview/tree/master/app/widgets/com.orthlieb.scrollablewebview",
+		"source": "https://raw.github.com/orthlieb/widget_scrollablewebview/master/app/widgets/com.orthlieb.scrollablewebview/widget.json"
+	},
+
+
+
+
+
+	{
+		"type": "widget",
 		"tags": ["detail", "navigation"],
 		"url": "https://github.com/mcongrove/ChariTi/tree/1.1.1/app/widgets/com.chariti.detailNavigation",
 		"source": "https://raw.github.com/mcongrove/ChariTi/1.1.1/app/widgets/com.chariti.detailNavigation/widget.json"
