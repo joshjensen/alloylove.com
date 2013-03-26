@@ -64,12 +64,12 @@ h1 img {position: relative; top: 50px;}
   h1.overlay span {
     color: #fff !important;
   }
-  h1 span.widget { color: #A839B2; }
+  h1 span.app { color: #A839B2; }
   h1 span.adapter { color: #FF0071; }
   h1 span.tutorial { color: #ACD030; }
-  h1 span.app { color: #58AA00; }
-  h1 span:nth-child(6n+5) { color: #00AA78; }
-  h1 span:nth-child(6n+6) { color: #0074AE; }
+  h1 span.widget { color: #58AA00; }
+  h1 span.somethingelse1 { color: #00AA78; }
+  h1 span.something { color: #0074AE; }
   h2 {
     color: #fff;
     margin: 0;
@@ -79,7 +79,7 @@ h1 img {position: relative; top: 50px;}
     text-shadow: 0px -1px 5px rgba(0,0,0,0.4);
   }
 
-  h4 {
+  h5 {
     color: #fff;
     margin: 0;
     font-size: 26px;
@@ -124,7 +124,7 @@ h1 img {position: relative; top: 50px;}
     padding: 20px;
     -webkit-animation: appear 0.2s;
   }
-  li.widget a {
+  li.app a {
     background: #791982;
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
@@ -187,7 +187,7 @@ h1 img {position: relative; top: 50px;}
       linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
       linear-gradient(#acd030, #6f9113);
   }
-  li.app a {
+  li.widget a {
     background: #4A8419;
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
@@ -208,7 +208,7 @@ h1 img {position: relative; top: 50px;}
       linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
       linear-gradient(#58aa00, #337100);
   }
-  li:nth-child(6n+5) a {
+  li.somethingelse1 a {
     background: #18946D;
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
@@ -229,7 +229,7 @@ h1 img {position: relative; top: 50px;}
       linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
       linear-gradient(#00aa78, #05603e);
   }
-  li:nth-child(6n+6) a {
+  li.something a {
     background: #1E577F;
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
@@ -274,7 +274,7 @@ h1 img {position: relative; top: 50px;}
     -moz-box-shadow:0 0 50px rgba(255,255,255,0.15);
     -webkit-box-shadow:0 0 100px rgba(255,255,255,0.15);
   }
-  li.widget a:hover, li.widget a:focus {
+  li.app a:hover, li.app a:focus {
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
       -webkit-gradient(linear, left top, left bottom, from(#A839B2), to(#6c1075));
@@ -334,7 +334,7 @@ h1 img {position: relative; top: 50px;}
       linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
       linear-gradient(#acd030, #6f9113);
   }
-  li.app a:hover, li.app a:focus {
+  li.widget a:hover, li.widget a:focus {
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
       -webkit-gradient(linear, left top, left bottom, from(#58aa00), to(#337100));
@@ -354,7 +354,7 @@ h1 img {position: relative; top: 50px;}
       linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
       linear-gradient(#58aa00, #337100);
   }
-  li:nth-child(6n+5) a:hover, li:hover:nth-child(6n+5) a:focus {
+  li.somethingelse1 a:hover, li:hover.somethingelse1 a:focus {
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
       -webkit-gradient(linear, left top, left bottom, from(#00aa78), to(#05603e));
@@ -374,7 +374,7 @@ h1 img {position: relative; top: 50px;}
       linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
       linear-gradient(#00aa78, #05603e);
   }
-  li:nth-child(6n+6) a:hover, li:nth-child(6n+6) a:focus {
+  li.something a:hover, li.something a:focus {
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
       -webkit-gradient(linear, left top, left bottom, from(#0074ae), to(#073c66));
@@ -403,16 +403,13 @@ h1 img {position: relative; top: 50px;}
     padding: 0 20px 0 0;
     width: 25%;
     min-height: 80px;
+    overflow: hidden;
   }
   li h3, li h4 {
     display: inline;
     line-height: 30px;
-  }
-  li h3 {
-    font-size: 40px;
-  }
-  li h4 {
-    font-size: 32px;
+    font-size: 25px;
+    font-weight: bold;
   }
   div.info span {
     display: block;
@@ -494,12 +491,12 @@ h1 img {position: relative; top: 50px;}
     display: block;
     color: #0074AE;
   }
-  .clue strong span.widget { color: #A839B2; }
+  .clue strong span.app { color: #A839B2; }
   .clue strong span.adapter { color: #FF0071; }
   .clue strong span.tutorial { color: #ACD030; }
-  .clue strong span.app { color: #58AA00; }
-  .clue strong span:nth-child(6n+5) { color: #00AA78; }
-  .clue strong span:nth-child(6n+6) { color: #0074AE; }
+  .clue strong span.widget { color: #58AA00; }
+  .clue strong span.somethingelse1 { color: #00AA78; }
+  .clue strong span.something { color: #0074AE; }
   .clue a {
     color: #FF0071;
   }
@@ -576,7 +573,7 @@ h1 img {position: relative; top: 50px;}
   <ul id="results"></ul>
 
   <div class="clue">
-    <h4>Welcome to Alloylove.com</h4>
+    <h5>Welcome to Alloylove.com</h5>
 
     <p>Hopefully this will become a quick and easy way to find all the Alloy love you love to love... but can't find.</p>
 
