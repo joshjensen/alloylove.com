@@ -1,2 +1,11 @@
 .DS_Store
 node_modules
+/atom.xml
+/build
+/data.js
+/lib/
+/Makefile
+/package.json
+/README.md
+/resources/icons.png
+/resources/icons.psd
