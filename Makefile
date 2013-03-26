@@ -1,6 +1,6 @@
 remotehost = microjs
 remotepath = /home/madrobby/htdocs/microjs.com/
-scpfiles = index.html data-min.js data.js atom.xml
+scpfiles = index.html data-min.js data.json atom.xml
 
 compile: deps
 	@./build

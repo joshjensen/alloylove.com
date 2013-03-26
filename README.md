@@ -7,7 +7,7 @@ Hopefully this will become a quick and easy way to find all the Alloy love you l
 SUBMITTING NEW LIBRARIES AND FRAMEWORKS:
 -------
 
-Want to add your own? Fork this site on GitHub, add your resource to data.js
+Want to add your own? Fork this site on GitHub, add your resource to data.json
 and submit a pull request. When adding your source URL, please use an un-minified
 file with a name that's unlikely to change (no version numbers).
 
@@ -15,7 +15,7 @@ file with a name that's unlikely to change (no version numbers).
 
 `make deps` will run `npm install --dev` to install the dependencies of the data compiler.
 
-`make compile` will run the compiler. The compiler reads *data.js* and checks the *source* of
+`make compile` will run the compiler. The compiler reads *data.json* and checks the *source* of
 each entry.
 
 You will see **warnings** where entries need to be checked and **errors** where entries will be

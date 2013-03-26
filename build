@@ -10,7 +10,7 @@ program
     .parse(process.argv);
 
 var config = {
-        inFile: 'data.js',
+        inFile: 'data.json',
         outFile: 'data-min.js',
         githubLastPushCutoffMonths: 48, // for now—need to tweak this later,
         errorCountThreshold: 10,
