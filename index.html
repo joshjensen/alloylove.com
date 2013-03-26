@@ -640,7 +640,11 @@ h1 img {position: relative; top: 50px;}
         $results.innerHTML = html.join('')
       }
 
-  MicroJS.sort(function () { return 0.5 - Math.random() })
+  MicroJS.sort(function (a,b) { 
+    if (a.name > b.name)
+      return -1;
+    return 1;
+  });
 
 // mini feature-detect for some of the stuff we use with fallback for garbage browsers
 ;Array.prototype.forEach && Array.prototype.filter && document.documentElement.addEventListener && document.querySelector ?
@@ -766,7 +770,6 @@ h1 img {position: relative; top: 50px;}
         kw = kw.toLowerCase();
         kw = kw.split(/\s+/)
         libMatches = searchArray(MicroJS, kw)
-        console.log(libMatches);
         render(libMatches)
       }, 200)
     , searchArray = function (arr, kw) {
