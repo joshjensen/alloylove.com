@@ -147,6 +147,7 @@
 	{
 		"type": "widget",
 		"github": "FokkeZB/nl.fokkezb.tweetsView",
+		"tags": ["twitter", "tweet"],
 		"url": "https://github.com/FokkeZB/nl.fokkezb.tweetsView",
 		"json": "https://raw.github.com/FokkeZB/nl.fokkezb.tweetsView/master/app/widgets/nl.fokkezb.tweetsView/widget.json"
 	},
@@ -161,7 +162,7 @@
 		"name": "Parse Sync",
 		"author": "Aaron Saunders",
 		"github": "centogram/Alloy-Parse-Adapter",
-		"tags": [],
+		"tags": ["parse"],
 		"description": "Appcelerator Alloy Model Sync Adapter Example for Parse.com API",
 		"url": "https://github.com/centogram/Alloy-Parse-Adapter"
 	},
@@ -170,7 +171,7 @@
 		"name": "StackMob Sync",
 		"author": "Aaron Saunders",
 		"github": "aaronksaunders/Alloy-StackMob-Adapter",
-		"tags": [],
+		"tags": ["stackmob"],
 		"description": "Appcelerator Alloy StackMob Sync Adapter",
 		"url": "https://github.com/aaronksaunders/Alloy-StackMob-Adapter"
 	},	
@@ -179,7 +180,7 @@
 		"name": "ACS Sync",
 		"author": "Aaron Saunders",
 		"github": "aaronksaunders/ci.alloy.adapter.two",
-		"tags": [],
+		"tags": ["acs"],
 		"description": "New and improved ACS Alloy Module",
 		"url": "https://github.com/aaronksaunders/ci.alloy.adapter.two"
 	},		
@@ -188,7 +189,7 @@
 		"name": "TiTouchDB Sync",
 		"author": "Paul Mietz Egli",
 		"github": "pegli/alloy-ti_touchdb",
-		"tags": [],
+		"tags": ["db"],
 		"description": "A persistence adapter which allows you to use TiTouchDB to store model objects within Alloy.",
 		"url": "https://github.com/pegli/alloy-ti_touchdb"
 	},
@@ -197,7 +198,7 @@
 		"name": "Cloudmine Sync",
 		"author": "Aaron Saunders",
 		"github": "aaronksaunders/ci.alloy.cloudmine.books",
-		"tags": [],
+		"tags": ["cloudmine"],
 		"description": "Cloudmine adapter",
 		"url": "https://github.com/aaronksaunders/ci.alloy.cloudmine.books"
 	},
@@ -206,7 +207,7 @@
 		"name": "Rest API Sync",
 		"author": "Mads Møller",
 		"github": "aaronksaunders/ci.alloy.cloudmine.books",
-		"tags": [],
+		"tags": ["rest"],
 		"description": "RestAPI Sync Adapter for Titanium Alloy Framework.",
 		"url": "https://github.com/viezel/napp.alloy.adapter.restapi"
 	},
@@ -215,7 +216,7 @@
 		"name": "SQL & RestAPI Sync",
 		"author": "Mads Møller",
 		"github": "viezel/napp.alloy.adapter.restsql",
-		"tags": [],
+		"tags": ["sql", "rest"],
 		"description": "SQL & RestAPI Sync Adapter for Titanium Alloy Framework. The idea is to combine Restful API with a local sql database.",
 		"url": "https://github.com/viezel/napp.alloy.adapter.restsql"
 	}
