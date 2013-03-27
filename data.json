@@ -219,5 +219,44 @@
 		"tags": ["sql", "rest"],
 		"description": "SQL & RestAPI Sync Adapter for Titanium Alloy Framework. The idea is to combine Restful API with a local sql database.",
 		"url": "https://github.com/viezel/napp.alloy.adapter.restsql"
-	}
+	},
+	{
+		"type": "application",
+		"name": "ChariTi",
+		"author": "Matthew Congrove",
+		"github": "mcongrove/ChariTi",
+		"tags": ["application"],
+		"description": "ChariTi is a framework built to allow charities to quickly and easily create mobile apps.",
+		"url": "https://github.com/mcongrove/ChariTi/"
+	},
+	{
+		"type": "widget",
+		"github": "mcongrove/ChariTi",
+		"url": "https://github.com/mcongrove/ChariTi/tree/1.1.1/app/widgets/com.chariti.detailNavigation",
+		"json": "https://raw.github.com/mcongrove/ChariTi/1.1.1/app/widgets/com.chariti.detailNavigation/widget.json"
+	},			
+	{
+		"type": "widget",
+		"github": "mcongrove/ChariTi",
+		"url": "https://github.com/mcongrove/ChariTi/tree/1.1.1/app/widgets/com.chariti.loading",
+		"json": "https://raw.github.com/mcongrove/ChariTi/1.1.1/app/widgets/com.chariti.loading/widget.json"
+	},	
+	{
+		"type": "widget",
+		"github": "mcongrove/ChariTi",
+		"url": "https://github.com/mcongrove/ChariTi/tree/1.1.1/app/widgets/com.chariti.navigationBar",
+		"json": "https://raw.github.com/mcongrove/ChariTi/1.1.1/app/widgets/com.chariti.navigationBar/widget.json"
+	},	
+	{
+		"type": "widget",
+		"github": "mcongrove/ChariTi",
+		"url": "https://github.com/mcongrove/ChariTi/tree/1.1.1/app/widgets/com.chariti.slideMenu",
+		"json": "https://raw.github.com/mcongrove/ChariTi/1.1.1/app/widgets/com.chariti.slideMenu/widget.json"
+	},	
+	{
+		"type": "widget",
+		"github": "mcongrove/ChariTi",
+		"url": "https://github.com/mcongrove/ChariTi/tree/1.1.1/app/widgets/com.chariti.tabs",
+		"json": "https://raw.github.com/mcongrove/ChariTi/1.1.1/app/widgets/com.chariti.tabs/widget.json"
+	}				
 ]
