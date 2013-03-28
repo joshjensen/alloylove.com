@@ -258,5 +258,41 @@
 		"github": "mcongrove/ChariTi",
 		"url": "https://github.com/mcongrove/ChariTi/tree/1.1.1/app/widgets/com.chariti.tabs",
 		"json": "https://raw.github.com/mcongrove/ChariTi/1.1.1/app/widgets/com.chariti.tabs/widget.json"
+	},
+	{
+		"type": "widget",
+		"github": "appcelerator/alloy",
+		"url": "https://github.com/appcelerator/alloy/tree/master/widgets/com.appcelerator.bookSearchView",
+		"json": "https://raw.github.com/appcelerator/alloy/master/widgets/com.appcelerator.bookSearchView/widget.json"
+	},
+	{
+		"type": "widget",
+		"github": "appcelerator/alloy",
+		"url": "https://github.com/appcelerator/alloy/tree/master/widgets/com.appcelerator.bouncylogo",
+		"json": "https://raw.github.com/appcelerator/alloy/master/widgets/com.appcelerator.bouncylogo/widget.json"
+	},
+	{
+		"type": "widget",
+		"github": "appcelerator/alloy",
+		"url": "https://github.com/appcelerator/alloy/tree/master/widgets/com.appcelerator.buttongrid",
+		"json": "https://raw.github.com/appcelerator/alloy/master/widgets/com.appcelerator.buttongrid/widget.json"
+	},	
+	{
+		"type": "widget",
+		"github": "appcelerator/alloy",
+		"url": "https://github.com/appcelerator/alloy/tree/master/widgets/com.appcelerator.drawer",
+		"json": "https://raw.github.com/appcelerator/alloy/master/widgets/com.appcelerator.drawer/widget.json"
+	},
+	{
+		"type": "widget",
+		"github": "appcelerator/alloy",
+		"url": "https://github.com/appcelerator/alloy/tree/master/widgets/com.appcelerator.loading",
+		"json": "https://raw.github.com/appcelerator/alloy/master/widgets/com.appcelerator.loading/widget.json"
+	},
+	{
+		"type": "widget",
+		"github": "appcelerator/alloy",
+		"url": "https://github.com/appcelerator/alloy/tree/master/widgets/com.appcelerator.searchForBooks",
+		"json": "https://raw.github.com/appcelerator/alloy/master/widgets/com.appcelerator.searchForBooks/widget.json"
 	}				
 ]
