@@ -1,6 +1,13 @@
 [
 	{
 		"type": "widget",
+		"description": "A Google Places Search API Widget",
+		"github": "VarunJoshi/SearchPlacesWidget",
+		"url": "https://github.com/VarunJoshi/SearchPlacesWidget/tree/master/com.appcelerator.searchForPlaces",
+		"json": "https://raw.github.com/VarunJoshi/SearchPlacesWidget/master/com.appcelerator.searchForPlaces/widget.json"
+	},
+	{
+		"type": "widget",
 		"description": "An ACS login widget for Titanium Alloy",
 		"github": "bettytran/acsloginwidget",
 		"url": "https://github.com/bettytran/acsloginwidget/tree/master/com.appcelerator.acslogin",
