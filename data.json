@@ -306,6 +306,6 @@
 		"type": "widget",
 		"github": "adammagana/alloy-widgets",
 		"url": "https://github.com/adammagana/alloy-widgets/tree/master/app/widgets/confirmationMessage",
-		"json": "https://github.com/adammagana/alloy-widgets/blob/master/app/widgets/confirmationMessage/widget.json"
+		"json": "https://raw.github.com/adammagana/alloy-widgets/master/app/widgets/confirmationMessage/widget.json"
 	}
 ]
