@@ -307,5 +307,17 @@
 		"github": "adammagana/alloy-widgets",
 		"url": "https://github.com/adammagana/alloy-widgets/tree/master/app/widgets/confirmationMessage",
 		"json": "https://raw.github.com/adammagana/alloy-widgets/master/app/widgets/confirmationMessage/widget.json"
-	}
+	},
+	{
+		"type": "widget",
+		"github": "fokkezb/nl.fokkezb.loading",
+		"url": "https://github.com/FokkeZB/nl.fokkezb.loading",
+		"json": "https://raw.github.com/FokkeZB/nl.fokkezb.loading/master/widget.json"
+	},
+	{
+		"type": "widget",
+		"github": "fokkezb/nl.fokkezb.loading",
+		"url": "https://github.com/ricardoalcocer/actionbarclone",
+		"json": "https://raw.github.com/ricardoalcocer/actionbarclone/master/app/widgets/com.alco.headerbar/widget.json"
+	}				
 ]
