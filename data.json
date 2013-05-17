@@ -301,5 +301,11 @@
 		"github": "appcelerator/alloy",
 		"url": "https://github.com/appcelerator/alloy/tree/master/widgets/com.appcelerator.searchForBooks",
 		"json": "https://raw.github.com/appcelerator/alloy/master/widgets/com.appcelerator.searchForBooks/widget.json"
-	}				
+	},
+	{
+		"type": "widget",
+		"github": "adammagana/alloy-widgets",
+		"url": "https://github.com/adammagana/alloy-widgets/tree/master/app/widgets/confirmationMessage",
+		"json": "https://raw.github.com/adammagana/alloy-widgets/master/app/widgets/confirmationMessage/widget.json"
+	}
 ]
