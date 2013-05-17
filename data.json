@@ -316,7 +316,7 @@
 	},
 	{
 		"type": "widget",
-		"github": "fokkezb/nl.fokkezb.loading",
+		"github": "ricardoalcocer/actionbarclone",
 		"url": "https://github.com/ricardoalcocer/actionbarclone",
 		"json": "https://raw.github.com/ricardoalcocer/actionbarclone/master/app/widgets/com.alco.headerbar/widget.json"
 	}				
