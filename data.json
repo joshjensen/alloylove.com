@@ -328,6 +328,23 @@
 		"tags": ["grid","layout","gallery"],
 		"description": "An Cross-Platfrom Alloy Widget for creating flexible grid layouts.",
 		"url": "https://github.com/pablorr18/TiFlexiGrid",
-		"json":"https://github.com/pablorr18/TiFlexiGrid/blob/master/sample/app/widgets/tiflexigrid/widget.json"
-	}
+		"json":"https://raw.github.com/pablorr18/TiFlexiGrid/master/sample/app/widgets/tiflexigrid/widget.json"
+	},
+	{
+		"type": "widget",
+		"name": "ytPlayer",
+		"author": "Bob Sims",
+		"github": "bob-sims/ytPlayer",
+		"tags": ["youtube","videoplayer","streaming"],
+		"description": "Simple cross-platform Alloy Widget for Titanium Mobile, plays streaming YouTube video with native Ti.Media.VideoPlayer.",
+		"url": "https://github.com/bob-sims/ytPlayer",
+		"json": "https://raw.github.com/bob-sims/ytPlayer/master/app/widgets/ytPlayer/widget.json"
+	},
+	{
+		"type": "widget",
+		"description": "A widget for showing tabular data (A grid.)",
+		"github": "albinotonnina/it.numidia.gridWidget",
+		"url": "https://github.com/albinotonnina/it.numidia.gridWidget",
+		"json": "https://raw.github.com/albinotonnina/it.numidia.gridWidget/master/app/widgets/it.numidia.grid/widget.json"
+	},		
 ]
