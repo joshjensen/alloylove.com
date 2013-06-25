@@ -319,5 +319,15 @@
 		"github": "ricardoalcocer/actionbarclone",
 		"url": "https://github.com/ricardoalcocer/actionbarclone",
 		"json": "https://raw.github.com/ricardoalcocer/actionbarclone/master/app/widgets/com.alco.headerbar/widget.json"
-	}				
+	},
+	{
+		"type": "widget",
+		"name": "TiFlexiGrid",
+		"author": "Pablo Rodriguez",
+		"github": "pablorr18/TiFlexiGrid",
+		"tags": ["grid","layout","gallery"],
+		"description": "An Cross-Platfrom Alloy Widget for creating flexible grid layouts.",
+		"url": "https://github.com/pablorr18/TiFlexiGrid",
+		"json":"https://github.com/pablorr18/TiFlexiGrid/blob/master/sample/app/widgets/tiflexigrid/widget.json"
+	}
 ]
