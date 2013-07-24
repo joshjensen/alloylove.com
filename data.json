@@ -1,6 +1,13 @@
 [
 	{
 		"type": "widget",
+		"description": "Dynamic TSS styling on orientation change",
+		"github": "jasonkneen/com.jasonkneen.dynamicTSS",
+		"url": "https://github.com/jasonkneen/dynamicTSS/tree/master",
+		"json": "https://raw.github.com/jasonkneen/com.jasonkneen.dynamicTSS/master/widget.json"
+	},
+	{
+		"type": "widget",
 		"description": "A Google Places Search API Widget",
 		"github": "VarunJoshi/SearchPlacesWidget",
 		"url": "https://github.com/VarunJoshi/SearchPlacesWidget/tree/master/com.appcelerator.searchForPlaces",
