@@ -138,25 +138,25 @@
 		"type": "widget",
 		"github": "FokkeZB/nl.fokkezb.button",
 		"url": "https://github.com/FokkeZB/nl.fokkezb.button",
-		"json": "https://raw.github.com/FokkeZB/nl.fokkezb.button/master/app/widgets/nl.fokkezb.button/widget.json"
+		"json": "https://raw.github.com/FokkeZB/nl.fokkezb.button/master/widget.json"
 	},
 	{
 		"type": "widget",
 		"github": "FokkeZB/nl.fokkezb.cachedImageView",
 		"url": "https://github.com/FokkeZB/nl.fokkezb.cachedImageView",
-		"json": "https://raw.github.com/FokkeZB/nl.fokkezb.cachedImageView/master/app/widgets/nl.fokkezb.cachedImageView/widget.json"
+		"json": "https://raw.github.com/FokkeZB/nl.fokkezb.cachedImageView/master/widget.json"
 	},
 	{
 		"type": "widget",
 		"github": "FokkeZB/nl.fokkezb.dynamicScrolling",
 		"url": "https://github.com/FokkeZB/nl.fokkezb.dynamicScrolling",
-		"json": "https://raw.github.com/FokkeZB/nl.fokkezb.dynamicScrolling/master/app/widgets/nl.fokkezb.dynamicScrolling/widget.json"
+		"json": "https://raw.github.com/FokkeZB/nl.fokkezb.dynamicScrolling/master/widget.json"
 	},
 	{
 		"type": "widget",
 		"github": "FokkeZB/nl.fokkezb.pullToRefresh",
 		"url": "https://github.com/FokkeZB/nl.fokkezb.pullToRefresh",
-		"json": "https://raw.github.com/FokkeZB/nl.fokkezb.pullToRefresh/master/app/widgets/nl.fokkezb.pullToRefresh/widget.json"
+		"json": "https://raw.github.com/FokkeZB/nl.fokkezb.pullToRefresh/master/widget.json"
 	},
 	{
 		"type": "widget",
