@@ -8,13 +8,6 @@
 	},
 	{
 		"type": "widget",
-		"description": "A Google Places Search API Widget",
-		"github": "VarunJoshi/SearchPlacesWidget",
-		"url": "https://github.com/VarunJoshi/SearchPlacesWidget/tree/master/com.appcelerator.searchForPlaces",
-		"json": "https://raw.github.com/VarunJoshi/SearchPlacesWidget/master/com.appcelerator.searchForPlaces/widget.json"
-	},
-	{
-		"type": "widget",
 		"description": "An ACS login widget for Titanium Alloy",
 		"github": "bettytran/acsloginwidget",
 		"url": "https://github.com/bettytran/acsloginwidget/tree/master/com.appcelerator.acslogin",
@@ -353,5 +346,11 @@
 		"github": "albinotonnina/it.numidia.gridWidget",
 		"url": "https://github.com/albinotonnina/it.numidia.gridWidget",
 		"json": "https://raw.github.com/albinotonnina/it.numidia.gridWidget/master/app/widgets/it.numidia.grid/widget.json"
+	},
+	{
+		"type": "widget",
+		"github": "manumaticx/toasty",
+		"url": "https://github.com/manumaticx/toasty/tree/master/app/widgets/toasty",
+		"json": "https://raw.github.com/manumaticx/toasty/master/app/widgets/toasty/widget.json"
 	}
 ]
