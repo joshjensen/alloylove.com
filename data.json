@@ -1,6 +1,13 @@
 [
 	{
 		"type": "widget",
+		"description": "Cross-platform TabGroup widget for iOS and Android",
+		"github": "jasonkneen/com.jasonkneen.tabgroup",
+		"url": "https://github.com/jasonkneen/com.jasonkneen.tabgroup",
+		"json": "https://github.com/jasonkneen/com.jasonkneen.tabgroup/blob/master/widget.json"
+	},
+	{
+		"type": "widget",
 		"description": "Dynamic TSS styling on orientation change",
 		"github": "jasonkneen/com.jasonkneen.dynamicTSS",
 		"url": "https://github.com/jasonkneen/dynamicTSS/tree/master",
