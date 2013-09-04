@@ -4,7 +4,7 @@
 		"description": "Cross-platform TabGroup widget for iOS and Android",
 		"github": "jasonkneen/com.jasonkneen.tabgroup",
 		"url": "https://github.com/jasonkneen/com.jasonkneen.tabgroup",
-		"json": "https://github.com/jasonkneen/com.jasonkneen.tabgroup/blob/master/widget.json"
+		"json": "https://raw.github.com/jasonkneen/com.jasonkneen.tabgroup/master/widget.json"
 	},
 	{
 		"type": "widget",
