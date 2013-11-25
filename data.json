@@ -359,5 +359,15 @@
 		"github": "manumaticx/toasty",
 		"url": "https://github.com/manumaticx/toasty/tree/master/app/widgets/toasty",
 		"json": "https://raw.github.com/manumaticx/toasty/master/app/widgets/toasty/widget.json"
-	}
+	},
+	{
+		"type": "widget",
+		"name": "Badass Pageflow",
+		"author": "JoliCode",
+		"github": "jolicode/Badass-Pageflow",
+		"tags": ["navigation","page"],
+		"description": "This Alloy widget allows to manage flows of pages: open a child window, go back to the parent window, close the current pageflow, move to a page by its index, etc. A Pageflow is therefore comparable to a NavigationGroup, except it is cross-platform and it allows a greater personnalization. In particular, the Pageflow widget allows to translate in every direction, and not only on a horizontal path.",
+		"url": "https://github.com/jolicode/Badass-Pageflow",
+		"json":"https://raw.github.com/jolicode/Badass-Pageflow/master/widget.json"
+        }
 ]
