@@ -166,12 +166,6 @@
 		"json": "https://raw.github.com/FokkeZB/nl.fokkezb.tweetsView/master/app/widgets/nl.fokkezb.tweetsView/widget.json"
 	},
 	{
-		"type": "widget",
-		"tags": ["detail", "navigation"],
-		"url": "https://github.com/mcongrove/ChariTi/tree/1.1.1/app/widgets/com.chariti.detailNavigation",
-		"json": "https://raw.github.com/mcongrove/ChariTi/1.1.1/app/widgets/com.chariti.detailNavigation/widget.json"
-	},
-	{
 		"type": "adapter",
 		"name": "Parse Sync",
 		"author": "Aaron Saunders",
@@ -246,33 +240,39 @@
 	{
 		"type": "widget",
 		"github": "mcongrove/ChariTi",
-		"url": "https://github.com/mcongrove/ChariTi/tree/1.1.1/app/widgets/com.chariti.detailNavigation",
-		"json": "https://raw.github.com/mcongrove/ChariTi/1.1.1/app/widgets/com.chariti.detailNavigation/widget.json"
-	},			
-	{
-		"type": "widget",
-		"github": "mcongrove/ChariTi",
-		"url": "https://github.com/mcongrove/ChariTi/tree/1.1.1/app/widgets/com.chariti.loading",
-		"json": "https://raw.github.com/mcongrove/ChariTi/1.1.1/app/widgets/com.chariti.loading/widget.json"
+		"url": "https://github.com/mcongrove/com.mcongrove.navigationBar",
+		"json": "https://raw.github.com/mcongrove/com.mcongrove.navigationBar/master/widget.json"
 	},	
 	{
 		"type": "widget",
 		"github": "mcongrove/ChariTi",
-		"url": "https://github.com/mcongrove/ChariTi/tree/1.1.1/app/widgets/com.chariti.navigationBar",
-		"json": "https://raw.github.com/mcongrove/ChariTi/1.1.1/app/widgets/com.chariti.navigationBar/widget.json"
+		"url": "https://github.com/mcongrove/com.mcongrove.tabs",
+		"json": "https://raw.github.com/mcongrove/com.mcongrove.tabs/master/widget.json"
 	},	
 	{
 		"type": "widget",
 		"github": "mcongrove/ChariTi",
-		"url": "https://github.com/mcongrove/ChariTi/tree/1.1.1/app/widgets/com.chariti.slideMenu",
-		"json": "https://raw.github.com/mcongrove/ChariTi/1.1.1/app/widgets/com.chariti.slideMenu/widget.json"
+		"url": "https://github.com/mcongrove/com.mcongrove.slideMenu",
+		"json": "https://raw.github.com/mcongrove/com.mcongrove.slideMenu/master/widget.json"
 	},	
 	{
 		"type": "widget",
 		"github": "mcongrove/ChariTi",
-		"url": "https://github.com/mcongrove/ChariTi/tree/1.1.1/app/widgets/com.chariti.tabs",
-		"json": "https://raw.github.com/mcongrove/ChariTi/1.1.1/app/widgets/com.chariti.tabs/widget.json"
-	},
+		"url": "https://github.com/mcongrove/com.mcongrove.toast",
+		"json": "https://raw.github.com/mcongrove/com.mcongrove.toast/master/widget.json"
+	},	
+	{
+		"type": "widget",
+		"github": "mcongrove/ChariTi",
+		"url": "https://github.com/mcongrove/com.mcongrove.detailNavigation",
+		"json": "https://raw.github.com/mcongrove/com.mcongrove.detailNavigation/master/widget.json"
+	},	
+	{
+		"type": "widget",
+		"github": "mcongrove/ChariTi",
+		"url": "https://github.com/mcongrove/com.mcongrove.loading",
+		"json": "https://raw.github.com/mcongrove/com.mcongrove.loading/master/widget.json"
+	},								
 	{
 		"type": "widget",
 		"github": "appcelerator/alloy",
